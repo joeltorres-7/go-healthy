@@ -239,10 +239,10 @@ const Navbar = () => {
       <p class="landing-logo">GoHealthy</p>
       
       <div class="profiles-div">
-        <a href='#'>Pacientes</a>
-        <a href='#'>Doctores</a>
-        <a href='#'>Administrativo</a>
-        <a href='#'>Precios</a>
+        <a className='link-nav' href='#'>Pacientes</a>
+        <a className='link-nav' href='#'>Doctores</a>
+        <a className='link-nav' href='#'>Administrativo</a>
+        <a className='link-nav' href='#'>Precios</a>
       </div>
 
       <div class="actions-div">

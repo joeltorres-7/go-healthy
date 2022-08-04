@@ -33,7 +33,7 @@ const SectionWelcome = styled.section`
                 &.watch {
                     width: 8rem;
                     height: 13rem;
-                    z-index: 10;
+                    z-index: 4;
 
                     transform: rotate(15deg)
                 }
@@ -41,7 +41,7 @@ const SectionWelcome = styled.section`
                 &.phone {
                     width: 16rem;
                     height: 32rem;
-                    z-index: 5;
+                    z-index: 2;
 
                     transform: rotate(-15deg)
                 }

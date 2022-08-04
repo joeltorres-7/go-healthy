@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout"
+import MobileNavbar from "../components/MobileNavbar"
 import Navbar from "../components/Navbar"
 import Landing from "../components/sections/Landing"
 import Footer from "../components/sections/Footer"
@@ -23,6 +24,7 @@ const IndexPage = () => {
 
       {/* Sections */}
       
+      <MobileNavbar/>
       <Navbar/>
       <Landing/>
       <Footer/>

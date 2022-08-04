@@ -123,7 +123,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="copyright-footer">
+            <div id="footer-copy-row" className="copyright-footer">
                 <p>Copyright © 2022 GoHealthy. Todos los derechos reservados.</p>
                 <div className="social-icons">
                     <a href='#'><img src={Previews.facebook}/></a>

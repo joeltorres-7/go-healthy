@@ -105,10 +105,15 @@ const GlobalStyles = createGlobalStyle`
         }
 
         #landing-main {
+
             .action-button {
                 text-align: center;
                 font-size: 0.6rem;
                 min-width: 12vw;
+            }
+
+            .description {
+                width: 80vw;
             }
         }
 
@@ -121,6 +126,10 @@ const GlobalStyles = createGlobalStyle`
         .sitemap {
             ul {
                 padding-left: 20px;
+            }
+
+            input {
+                width: 100%;
             }
         }
     }
@@ -141,42 +150,52 @@ const GlobalStyles = createGlobalStyle`
             }
         }
 
+        #landing-main {
+            flex-direction: column;
+            margin: 10rem auto 2rem auto;
+
+            .previews {
+                margin: 5rem 5rem;
+            }
+        }
+
     }
 
     @media only screen and (max-width: 810px) {
         #footer-identity-row {
             flex-direction: column;
+
+            .newsletter {
+                align-items: center;
+                justify-content: center;
+                
+                p {
+                    text-align: center;
+                }
+
+                input {
+                    width: 60%;
+                }
+            }
+
+            .sitemap {
+                margin-top: 2rem;
+                ul {
+                    text-align: center;
+                }
+            }
         }
     }
 
     @media only screen and (max-width: 650px) {
-
-        // Welcome Page
-
-        #rolling-box {
-            min-width: 45vw;
-        }
-
         #gatsby-focus-wrapper {
             overflow: hidden;
-        }
-
-        #carousel {
-            flex-direction: column;
-
-            h1 {
-                margin-bottom: 0.6rem;
-            }
-        }
-
-        #social-nav, #scroll-message {
-            display: none;
         }
 
         #navbar {
             justify-content: space-between;
 
-            .link {
+            .link-nav, .link {
                 display: none;
             }
 
@@ -184,82 +203,47 @@ const GlobalStyles = createGlobalStyle`
                 display: block;
             }
 
-            #nav-logo {
-                justify-self: flex-start;
+            .landing-logo {
+                margin-left: 2rem;
             }
         }
 
-        // Dots
+        #landing-main {
+            margin: 10rem auto 2rem auto;
 
-        #dot-box {
-            .blue-dot {
-                height: 2rem;
-                width: 2rem;
-                position: fixed;
-                top: 14rem;
-                right: 4rem;
-                border-radius: 100%;
-                background: #118AB2;
-            }
-
-            .blue-dot-rev {
-                height: 1.5rem;
-                width: 1.5rem;
-                position: fixed;
-                top: 6rem;
-                left: 3rem;
-                border-radius: 100%;
-                background: #118AB2;
-            }
-
-            .yellow-dot-rev, .pink-dot {
-                display: none;
+            .previews {
+                margin: 5rem 0rem;
             }
         }
 
-        .section-subtitle {
-            line-break: auto;
-            max-width: 60vw;
+        #footer-identity-row {
+            .sitemap {
+                flex-direction: column;
+                align-items: center;
+                margin: 2rem auto;
+                ul {
+                    text-align: center;
+                }   
+            }
+        }
+
+        #footer-copy-row {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+
+            p {
+                text-align: center;
+            }
+
+            .social-icons {
+                justify-content: center;
+                align-center: center;
+                width: 1.5rem;
+                margin: 2.5rem 0;
+            }
         }
-    }
-
-    @media only screen and (max-width: 550px) {
-        #rolling-box {
-            min-width: 55vw;
-        }
-    }
-
-    @media only screen and (max-width: 450px) {
-        #rolling-box {
-            min-width: 65vw;
-        }
-
-        p .section-title {
-            min-width: 60vw;
-        }
-    }
-
-    @media only screen and (max-width: 380px) {
-        #rolling-box {
-            min-width: 76vw;
-        }
-
-        .section-title {
-            min-width: 40vw;
-        }
-    }
-
-    // Queries: Height
-
-    @media only screen and (max-height: 430px) {
-
-        // Welcome Page
-
-        #social-nav, #scroll-message {
-            display: none;
-        }
-
     }
 `;
 
