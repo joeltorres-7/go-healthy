@@ -1,54 +1,30 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+ <a href="https://ibb.co/dgK9JMk"><img style="width: 120px; height: 120px" src="https://user-images.githubusercontent.com/64314452/182947619-91f6e159-cb4a-4c4c-bd88-e530c86c853c.svg" alt="Main logo for GoHealthy" border="0">
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  GoHealthy - Promotional Website
 </h1>
 
-## 🚀 Quick start
+<div align="center">
+  <img src="https://img.shields.io/netlify/b3f17b4f-99ef-4ce5-a670-e8f20e893232?color=06D6A0&style=for-the-badge" />
+</div>
 
-1.  **Create a Gatsby site.**
+## About this Repo 👨‍💻
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+<p align="center">Promotional website for health services through app, GoHealthy. Developed with React and Styled-Components for GoDigital.</p>
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Screenshots! 📷
 
-2.  **Start developing.**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64314452/182948179-d4dc6ef7-8462-4335-abad-cccea693fd12.png" alt="go-healthy-screenshot">
+</p>
 
-    Navigate into your new site’s directory and start it up.
+## 🎨 Color Reference
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+| Color                  | Hex                                                                |
+| ---------------------- | ------------------------------------------------------------------ |
+| White                  | ![#FFFFFE](https://via.placeholder.com/10/FFFFFE?text=+) `#FFFFFE` |
+| Nyanza                 | ![#E2FADB](https://via.placeholder.com/10/E2FADB?text=+) `#E2FADB` |
+| Celadon Green          | ![#048A81](https://via.placeholder.com/10/048A81?text=+) `#048A81` |
+| Rich Black FOGRA 29    | ![#04151F](https://via.placeholder.com/10/04151F?text=+) `#04151F` |
