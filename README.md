@@ -12,7 +12,7 @@
 
 ## About this Repo 👨‍💻
 
-<p align="center">Promotional website for health services through app, GoHealthy. Developed with React and Styled-Components for GoDigital.</p>
+<p align="center">Promotional website for health services through app, GoHealthy. Developed with React and Styled-Components for GoDigital.<br>It was also hosted on the Gatsby Cloud and you can access it here: https://gohealthymaster.gatsbyjs.io</p>
 
 ## Screenshots! 📷
 
