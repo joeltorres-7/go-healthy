@@ -205,6 +205,7 @@ const GlobalStyles = createGlobalStyle`
 
             .landing-logo {
                 margin-left: 2rem;
+                padding: 0;
             }
         }
 
@@ -222,6 +223,7 @@ const GlobalStyles = createGlobalStyle`
                 align-items: center;
                 margin: 2rem auto;
                 ul {
+                    padding: 0;
                     text-align: center;
                 }   
             }
@@ -242,6 +244,10 @@ const GlobalStyles = createGlobalStyle`
                 align-center: center;
                 width: 1.5rem;
                 margin: 2.5rem 0;
+
+                .border {
+                    margin-right: 1rem;
+                }
             }
         }
     }
